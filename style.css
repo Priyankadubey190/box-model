@@ -1,0 +1,177 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color:rgb(2, 2, 51);
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+}
+.header a{
+    margin: 0 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+nav .home{
+    color: green;
+}
+nav .blog{
+    color: white;
+}
+h1{
+    text-transform: capitalize;
+    margin: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 20px;
+}
+.box{
+    height:200px;
+    width: 200px;
+    margin: 50px auto;
+    background-color: #99d8ca;
+    border: 10px solid #5873e2;
+    outline: 5px solid #0d1430;
+    box-shadow: 0 0 0 12px #9dffa9;
+}
+.marker-container{
+    text-align: center;
+    margin-top: 60px;
+}
+.circle{
+    width: 20px;
+    height: 20px;
+    background-color:#99d8ca;
+    display: inline-block;
+    border-radius: 50%;
+    vertical-align:middle;
+    margin-right: 12px;
+}
+.padding{
+    background-color: #0d1430;
+
+}
+.border{
+    background-color: #9dffa9;
+}
+.margin{
+    background-color:#5873e2;
+}
+.marker{
+    margin: 0 16px;
+    display: inline-block;
+}
+.dotted{
+    border-top: 2px dotted rgb(109, 107, 107);
+    margin: 50px 0;
+}
+h2 .two{
+    font-size: 20px;
+    margin: 50px;
+    font-weight: bold;
+}
+.container{
+    height: 200px;
+    width:660px;
+    border: 2px solid black;
+    margin: 50px auto;
+}
+.inner-box{
+    height:180px;
+    width:195px;
+    margin:10px;
+    background-color:rgb(174, 174, 228) ;
+    display: inline-block;
+}
+.inner-box2{
+    height:180px;
+    width:195px;
+    margin:10px;
+    background-color:rgb(174, 174, 228) ;
+    display: inline-block;
+    border:2px solid black;
+}
+.top-article{
+    width:1300px;
+    margin:50px auto;            
+    font-size: 0;
+}
+.colum{
+    width:50%;
+    display: inline-block;
+    vertical-align: top;
+}
+.colum h1{
+    font-size: 20px;
+}
+.colum p{
+    font-size: 16px;
+    padding-right: 50px;
+}
+.btn{
+    font-size: 25px;
+    background-color: green;
+    color:white;
+    text-decoration: none;
+    border-radius: 20px;
+}
+
+.bottom-article{
+    width:1300px;
+    margin:50px auto;            
+    font-size: 0;
+}
+.bottom-article a{
+    font-size: 20px;
+    color: green;
+}
+.bottom-article h3{
+    font-size: 20px;
+    font-weight: bold;
+}
